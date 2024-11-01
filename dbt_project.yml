@@ -36,3 +36,15 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
+
+
+seeds:
+  your_project_name:
+    src_ads_bing_all_data:
+      file: src_ads_bing_all_data.csv
+    src_ads_creative_facebook_all_data:
+      file: src_ads_creative_facebook_all_data.csv
+    src_ads_tiktok_ads_all_data:
+      file: src_ads_tiktok_ads_all_data.csv
+    src_promoted_tweets_twitter_all_data:
+      file: src_promoted_tweets_twitter_all_data.csv
