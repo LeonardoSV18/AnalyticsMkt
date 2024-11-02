@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: dbt_leonardosv18   # This is the database or dataset name
+    schema: dbt_leonardosv18  # The schema where the raw tables are located
+    tables:
+      - name: src_ads_tiktok_ads_all_data
+        description: "Raw data from TikTok ads"
+      - name: src_promoted_tweets_twitter_all_data
+        description: "Raw data from Twitter promoted tweets"
+      - name: src_ads_creative_facebook_all_data
+        description: "Raw data from Facebook ads"
+      - name: src_ads_bing_all_data
+        description: "Raw data from Bing ads"
+
+
+
